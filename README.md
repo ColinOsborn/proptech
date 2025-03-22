@@ -37,3 +37,6 @@ $ bundle exec rspec --help`
 
 * Deployment instructions
 
+* Simplecov Test Coverage
+  To see test coverage, after running the tests, run 
+  ```open coverage/index.html```

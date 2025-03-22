@@ -1,4 +1,27 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
+require 'simplecov'
+SimpleCov.start 'rails' do
+  # Add any configuration options here
+  # Below you can exclude files etc
+  # add_filter %w[
+  #   app/controllers
+  #   app/models
+  #   app/views
+  #   lib/rails
+  #   lib/templates
+  #   bin
+  #   coverage
+  #   log
+  #   test
+  #   vendor
+  #   node_modules
+  #   db
+  #   doc
+  #   public
+  #   storage
+  #   tmp
+  # ]
+end
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
