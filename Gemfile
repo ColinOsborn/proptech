@@ -51,7 +51,7 @@ group :development, :test do
   gem "rails-controller-testing"
   gem "rspec-rails", "~> 7.0.0"
   gem "rubocop-rails-omakase", require: false
-  gem "shoulda-matchers", "~> 5.0"
+  gem "shoulda-matchers", "~> 6.4"
 end
 
 group :development do
