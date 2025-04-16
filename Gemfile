@@ -52,7 +52,7 @@ group :development, :test do
   gem "launchy"
   gem "pry"
   gem "rails-controller-testing"
-  gem "rspec-rails", "~> 7.0.0"
+  gem "rspec-rails", "~> 7.1.1"
   gem "rubocop-rails-omakase", require: false
   gem "shoulda-matchers", "~> 6.4"
 end
