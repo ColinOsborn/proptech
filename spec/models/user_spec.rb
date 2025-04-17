@@ -5,6 +5,7 @@ RSpec.describe User, type: :model do
     it { is_expected.to validate_presence_of(:name) }
     it { is_expected.to validate_presence_of(:phone_number) }
     it { is_expected.to validate_presence_of(:email) }
+    it { should validate_length_of(:name).is_at_least(3).with_message(/Name is too short/) }
   end
 
   context 'name splitting' do
