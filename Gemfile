@@ -47,6 +47,7 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  gem "capybara"
   gem "brakeman", require: false
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "launchy"
@@ -54,16 +55,11 @@ group :development, :test do
   gem "rails-controller-testing"
   gem "rspec-rails", "~> 7.1.1"
   gem "rubocop-rails-omakase", require: false
+  gem "selenium-webdriver"
   gem "shoulda-matchers", "~> 6.4"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-end
-
-group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
 end
