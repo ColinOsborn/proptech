@@ -56,7 +56,7 @@ group :development, :test do
   gem "rspec-rails", "~> 8.0.0"
   gem "rubocop-rails-omakase", require: false
   gem "selenium-webdriver"
-  gem "shoulda-matchers", "~> 6.4"
+  gem "shoulda-matchers", "~> 6.5"
 end
 
 group :development do
