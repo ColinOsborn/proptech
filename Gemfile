@@ -53,7 +53,7 @@ group :development, :test do
   gem "launchy"
   gem "pry"
   gem "rails-controller-testing"
-  gem "rspec-rails", "~> 8.0.1"
+  gem "rspec-rails", "~> 8.0.2"
   gem "rubocop-rails-omakase", require: false
   gem "selenium-webdriver"
   gem "shoulda-matchers", "~> 6.5"
